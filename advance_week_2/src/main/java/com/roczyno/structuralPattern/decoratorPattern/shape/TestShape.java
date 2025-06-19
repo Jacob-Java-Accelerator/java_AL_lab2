@@ -4,7 +4,12 @@ public class TestShape {
 
   public static void main(String[] args) {
     Circle circle = new Circle();
-    Circle circleExtended = new ColouredCircle(circle);
+
+    // You can now set additional properties
+    ColouredCircle circleExtended = new ColouredCircle(circle);
+    circleExtended.setColor("Red");
+    circleExtended.setName("My Red Circle");
+
     System.out.println(circleExtended.toString());
   }
 }

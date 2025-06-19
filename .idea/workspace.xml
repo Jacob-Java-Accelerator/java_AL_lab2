@@ -4,104 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b12a7f-0096-4e10-83f0-5568ca444624" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/275d783e298228506068436512433d343feb52aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/4157bd5dd967480f8f049a9c726191c3fbc47663" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d34813c0e463b7ba270048014852fd4e2cede22b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dccf092e42648da0d6543554b31caa19f4710601" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/275d783e298228506068436512433d343feb52aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/1/4157bd5dd967480f8f049a9c726191c3fbc47663" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d34813c0e463b7ba270048014852fd4e2cede22b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/c/dccf092e42648da0d6543554b31caa19f4710601" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/week2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/stockMarket/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/stockMarket/StockExchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/stockMarket/StockMarket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/stockMarket/StockObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/stockMarket/Trader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/weatherStation/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/weatherStation/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/weatherStation/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/behaviouralPattern/observerPattern/weatherStation/WeatherStation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/BuilderPattern/TestBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/BuilderPattern/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/TestFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/databaseConn/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/databaseConn/DatabaseConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/databaseConn/MysqlConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/databaseConn/PostgressConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/shapes/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/shapes/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/shapes/ShapeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/FactoryPattern/shapes/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/singleton/ConfigurationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/singleton/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/creationalPatterns/singleton/SingletonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/dependency-reduced-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/src/main/java/com/adapter/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/src/main/java/com/adapter/CsvAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/src/main/java/com/adapter/DataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/src/main/resources/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/csv/src/test/java/com/adapter/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/csvAdapter/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/LegacyPaymentProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/LegacyPaymentProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/ModernPaymentProcessImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/ModernPaymentProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/PaymentAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/TestPaymentProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/LegacyPaymentProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/LegacyPaymentProcessorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/ModernPaymentProcessImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/ModernPaymentProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/PaymentAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/adapterPattern/legacyPayment/out/com/structuralPattern/adapterPattern/legacyPayment/TestPaymentProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/CompressionDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/EncryptionDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/MessageDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/message/TextMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/shape/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/shape/CircleDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/shape/ColouredCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/shape/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/decoratorPattern/shape/TestShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/emailfacade/EmailFacade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/emailfacade/EmailFacadeImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/shoppingCart/Discount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/shoppingCart/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/shoppingCart/ShoppingCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/shoppingCart/ShoppingCartFacade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/facadePattern/shoppingCart/ShoppingCartFacadeImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/fileDownloader/FileDownloaderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/fileDownloader/downloaded_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/networkProxy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/networkProxy/NetworkRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/networkProxy/ProxyNetworkRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/structuralPattern/proxyPattern/networkProxy/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleService/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleSort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/classes/com/elitekaycy/testlabs/labs/simpleSort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/DemoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/labs/MockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/labs/MockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/labs/QuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testlabs/target/test-classes/com/elitekaycy/testlabs/labs/QuickSortTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="62b12a7f-0096-4e10-83f0-5568ca444624" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,29 +25,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestFactory.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JacobSabbathAdiaba/OneDrive - AmaliTech gGmbH/Desktop/Java Accelerator/Java Advance/week2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestBuilder.executor": "Run",
+    "Application.TestFactory.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JacobSabbathAdiaba/OneDrive - AmaliTech gGmbH/Desktop/Java Accelerator/Java Advance/week2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestBuilder">
     <configuration name="TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.creationalPatterns.BuilderPattern.TestBuilder" />
@@ -201,6 +105,7 @@
       <workItem from="1748245765333" duration="412000" />
       <workItem from="1748248261325" duration="921000" />
       <workItem from="1748249204778" duration="4734000" />
+      <workItem from="1748255216598" duration="296000" />
     </task>
     <servers />
   </component>
