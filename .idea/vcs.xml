@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oauth/Albums-Resource-Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oauth/ApiGateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oauth/DiscoveryService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oauth/Photos-Resource-Server" vcs="Git" />
   </component>
 </project>

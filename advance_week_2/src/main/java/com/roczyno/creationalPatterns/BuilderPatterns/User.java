@@ -1,36 +1,22 @@
 package com.roczyno.creationalPatterns.BuilderPatterns;
 
 public class User {
-	private String name;
-	private String username;
-	private String email;
+	private final String name;
+	private final String username;
+	private final String email;
 
-	public User(String name, String username, String email) {
-		this.name = name;
-		this.username = username;
-		this.email = email;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
+	private User(Builder builder) {
+		this.name = builder.name;
+		this.username = builder.username;
+		this.email = builder.email;
 	}
 
 	public String getName() {
 		return name;
 	}
-
 	public String getUsername() {
 		return username;
 	}
-
 	public String getEmail() {
 		return email;
 	}
@@ -59,15 +45,12 @@ public class User {
 			if (this.name == null) {
 				throw new IllegalStateException("name is required");
 			}
-			return new User(name, username, email);
+			return new User(this);
 		}
-
 	}
 
 	@Override
 	public String toString() {
 		return "User [name=" + name + ", username=" + username + ", email=" + email + "]";
 	}
-
 }
-

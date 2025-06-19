@@ -1,134 +1,174 @@
-## Overview
+# TestLabs - Java Unit Testing Labs
 
-In these exercises, I will explore unit testing using Mockito and TestNG. I'll start by mocking a simple service and then verify mock interactions to ensure they behave as expected.
+This project contains hands-on labs for learning and practicing unit testing in Java using **Mockito** and **TestNG**. Each lab focuses on a specific concept, with simple, clear code examples and corresponding tests.
 
-- **Lab 1** - [Mocking a Simple Service and Verifying Mock Interactions](./src/test/java/com/elitekaycy/testlabs/labs/MockTest.java)
-- **Lab 2** - [Writing a simple testNg Test and use data providers](./src/test/java/com/elitekaycy/testlabs/labs/QuickSortTest.java)
+## Table of Contents
 
-## Complete Folder Structure
+- [Lab 1: Mocking a Simple Service and Verifying Mock Interactions](#lab-1-mocking-a-simple-service-and-verifying-mock-interactions)
+- [Lab 2: Writing a Simple TestNG Test and Using Data Providers](#lab-2-writing-a-simple-testng-test-and-using-data-providers)
+- [Project Structure](#project-structure)
+- [Setup and Running Tests](#setup-and-running-tests)
 
-```plaintext
-my-maven-project/
+---
+
+## Lab 1: Mocking a Simple Service and Verifying Mock Interactions
+
+**Location:**
+
+- Main code: `src/main/java/com/elitekaycy/testlabs/labs/simpleService/`
+- Test: `src/test/java/com/elitekaycy/testlabs/labs/MockTest.java`
+
+### Overview
+
+This lab demonstrates how to use Mockito to mock dependencies and verify interactions in a service class. The example is a simple user service that fetches user data from a repository.
+
+### Components
+
+- **User.java**: A simple POJO representing a user with `name` and `email`.
+- **UserRepository.java**: Simulates a data repository with a method to find a user by name.
+- **UserService.java**: Service class that uses `UserRepository` to fetch user data.
+
+### Test
+
+- **MockTest.java**:
+  - Uses Mockito to mock `UserRepository`.
+  - Injects the mock into `UserService`.
+  - Tests that `UserService.getUser(name)` returns the expected user.
+  - Verifies that the repository's `findUserByName` method was called.
+
+#### Example Test Snippet
+
+```java
+@Mock
+private UserRepository userRepository;
+
+@InjectMocks
+private UserService userService;
+
+@Test
+public void testGetUser() {
+    String name = "dickson";
+    User user = new User(name, "dickson@gmail.com");
+
+    when(userRepository.findUserByName(name)).thenReturn(user);
+
+    User userResult = userService.getUser(name);
+
+    assertNotNull(userResult);
+    assertEquals(userResult.toString(), user.toString());
+
+    verify(userRepository).findUserByName(name);
+}
+```
+
+---
+
+## Lab 2: Writing a Simple TestNG Test and Using Data Providers
+
+**Location:**
+
+- Main code: `src/main/java/com/elitekaycy/testlabs/labs/simpleSort/QuickSort.java`
+- Test: `src/test/java/com/elitekaycy/testlabs/labs/QuickSortTest.java`
+
+### Overview
+
+This lab demonstrates how to write unit tests for a sorting algorithm using TestNG, including the use of data providers for parameterized testing.
+
+### Components
+
+- **QuickSort.java**:
+  - Contains a static `sort(int[] arr)` method that sorts an array in ascending order using a simple (non-recursive) sorting algorithm.
+
+### Test
+
+- **QuickSortTest.java**:
+  - Tests the `QuickSort.sort` method with hardcoded arrays.
+  - Uses a TestNG `@DataProvider` to supply multiple test cases.
+  - Asserts that the output array is sorted as expected.
+
+#### Example Test Snippet
+
+```java
+@Test
+public void unit_test_quicksort() {
+    int[] arr = { 4, 3, 7, 1 };
+    int[] result = QuickSort.sort(arr);
+    int[] expected = { 1, 3, 4, 7 };
+    for (int i = 0; i < result.length; i++) {
+        assertEquals(expected[i], result[i]);
+    }
+}
+
+@Test(dataProvider = "sortData")
+public void test_quicksort_with_data_providers(int[] arr) {
+    int[] result = QuickSort.sort(arr);
+    assertTrue(result[0] <= result[1]);
+    assertTrue(result[0] <= result[result.length - 1]);
+}
+
+@DataProvider(name = "sortData")
+public Object[][] sortData() {
+    return new Object[][] { { new int[] { 4, 3, 7, 1 } }, { new int[] { 17, 19, 12 } } };
+}
+```
+
+---
+
+## Project Structure
+
+```
+testlabs/
+├── pom.xml
+├── readme.md
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       └── com/
-│   │           └── elitekaycy/
-│   │               └── testlabs/
-│   │                   ├── labs/
-│   │                   │   └── simpleService/
-│   │                   │       ├── User.java
-│   │                   │       ├── UserRepository.java
-│   │                   │       └── UserService.java
-│   │                   └── simpleSort/
-│   │                       └── QuickSort.java
+│   │       └── com/elitekaycy/testlabs/
+│   │           └── labs/
+│   │               ├── simpleService/
+│   │               │   ├── User.java
+│   │               │   ├── UserRepository.java
+│   │               │   └── UserService.java
+│   │               └── simpleSort/
+│   │                   └── QuickSort.java
 │   └── test/
 │       └── java/
-│           └── com/
-│               └── elitekaycy/
-│                   └── testlabs/
-│                       ├── labs/
-│                       │   ├── MockTest.java
-│                       │   └── QuickSort.java
-│                       └── DemoTest.java
-└── pom.xml
+│           └── com/elitekaycy/testlabs/
+│               ├── labs/
+│               │   ├── MockTest.java
+│               │   └── QuickSortTest.java
+│               └── DemoTest.java
 ```
 
-### My Simple Guide to setting up mockito and testng on java projects
+---
 
-# Setting Up Mockito and TestNG in a Maven Java Project
+## Setup and Running Tests
 
-This guide will help you set up Mockito and TestNG in your Maven Java project for unit testing.
+### Prerequisites
 
-## Step 1: Create a Maven Project
+- Java 21+
+- Maven
 
-If you haven't already created a Maven project, you can create one using the following command:
+### Dependencies
 
-````sh
-mvn archetype:generate -DgroupId=com.example -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+The project uses the following dependencies (see `pom.xml`):
 
+- **TestNG** for unit testing
+- **Mockito** for mocking
 
-## Step 2: Update `pom.xml`
+### Running Tests
 
-To include the necessary dependencies for Mockito and TestNG in your Maven project, update your `pom.xml` file. Add the following dependencies inside the `<dependencies>` tag, and configure the Maven Surefire Plugin for running the tests:
+To run all tests, use:
 
-```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://www.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>my-app</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <dependencies>
-        <!-- TestNG dependency -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.7.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- Mockito dependency -->
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>5.5.0</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-                <configuration>
-                    <includes>
-                        <include>**/*Test.java</include>
-                    </includes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
-````
-
-### Key Things to Understand About the Surefire Plugin
-
-- **Default Behavior**: By default, the Surefire Plugin looks for test classes in the `src/test/java` directory with filenames ending in `Test.java`. This means any class that follows this naming convention will be automatically picked up and run as a test.
-- **Custom Configuration**: If your test classes do not follow the default naming convention or are located in a different directory, you can configure the Surefire Plugin to include specific test classes or directories. This can be done by modifying the `<includes>` and `<excludes>` tags in the plugin's configuration.
-- **Test Suites**: You can define test suites using an XML configuration file to specify which test classes should be run. This is useful for organizing and managing large test sets.
-
-#### Example of Custom Configuration:
-
-```xml
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
-            <configuration>
-                <includes>
-                    <include>**/*MyTest.java</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*IntegrationTest.java</exclude>
-                </excludes>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-
-```
-
-### Run
-
-```
-mvn install
+```sh
 mvn test
 ```
+
+---
+
+## Additional Notes
+
+- The `DemoTest.java` file is a simple demonstration and not part of the main labs.
+- The labs are designed to be minimal and focused on demonstrating core testing concepts.
+
+---
