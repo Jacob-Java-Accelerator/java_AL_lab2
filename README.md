@@ -173,3 +173,71 @@ mvn test
 - The labs are designed to be minimal and focused on demonstrating core testing concepts.
 
 ---
+
+## Oauth Microservices Suite
+
+This project includes a set of Spring Boot microservices demonstrating OAuth2 security, API Gateway, and service discovery using Eureka. Each service is independently runnable and configured for integration in a microservices architecture.
+
+### Structure
+
+```
+Oauth/
+├── Albums-Resource-Server/
+├── ApiGateway/
+├── DiscoveryService/
+├── Photos-Resource-Server/
+├── Docker-Compose.yaml
+```
+
+### Services
+
+#### 1. DiscoveryService
+
+- **Path:** `Oauth/DiscoveryService`
+- **Purpose:** Eureka server for service discovery.
+- **Key Tech:** Spring Cloud Netflix Eureka.
+- **Entry Point:** `DiscoveryServiceApplication.java`
+- **How to run:**  
+  `mvn spring-boot:run` in the `DiscoveryService` directory.
+
+#### 2. ApiGateway
+
+- **Path:** `Oauth/ApiGateway`
+- **Purpose:** API Gateway for routing and securing requests.
+- **Key Tech:** Spring Cloud Gateway, Eureka client.
+- **Entry Point:** `ApiGatewayApplication.java`
+- **How to run:**  
+  `mvn spring-boot:run` in the `ApiGateway` directory.
+
+#### 3. Albums-Resource-Server
+
+- **Path:** `Oauth/Albums-Resource-Server`
+- **Purpose:** OAuth2-protected resource server exposing album data.
+- **Key Tech:** Spring Boot, OAuth2 Resource Server.
+- **Entry Point:** `AlbumsApplication.java`
+- **How to run:**  
+  `mvn spring-boot:run` in the `Albums-Resource-Server` directory.
+
+#### 4. Photos-Resource-Server
+
+- **Path:** `Oauth/Photos-Resource-Server`
+- **Purpose:** OAuth2-protected resource server exposing photo data.
+- **Key Tech:** Spring Boot, OAuth2 Resource Server.
+- **Entry Point:** `PhotosApplication.java`
+- **How to run:**  
+  `mvn spring-boot:run` in the `Photos-Resource-Server` directory.
+
+#### 5. Docker Compose
+
+- **File:** `Oauth/Docker-Compose.yaml`
+- **Purpose:** Orchestrates all services for local development.
+
+---
+
+**Note:**
+
+- All services use Java 11 and Spring Boot 2.3.x.
+- The resource servers require OAuth2 tokens for access.
+- The API Gateway and resource servers register themselves with the Eureka Discovery Service.
+
+---
