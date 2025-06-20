@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.548" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs\target\test-classes;C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs\target\classes;C:\Users\JacobSabbathAdiaba\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Accra"/>
+    <property name="user.country.format" value="GH"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\JacobSabbathAdiaba\AppData\Local\Temp\surefire11347804535508945592\surefirebooter12418164738177443785.jar C:\Users\JacobSabbathAdiaba\AppData\Local\Temp\surefire11347804535508945592 2025-06-20T13-54-36_273-jvmRun1 surefire1267840096758315399tmp surefire_05344470821327103467tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs\target\test-classes;C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs\target\classes;C:\Users\JacobSabbathAdiaba\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\JacobSabbathAdiaba\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JacobSabbathAdiaba"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\JacobSabbathAdiaba\AppData\Local\Temp\surefire11347804535508945592\surefirebooter12418164738177443785.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="JacobSabbathAdiaba"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\JacobSabbathAdiaba\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JACOBS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\JacobSabbathAdiaba\OneDrive - AmaliTech gGmbH\Desktop\Java Accelerator\Java Advance\week2\testlabs"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Maven\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JacobSabbathAdiaba\AppData\Local\Programs\Python\Launcher\;C:\Users\JacobSabbathAdiaba\.console-ninja\.bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\JacobSabbathAdiaba\AppData\Local\Microsoft\WindowsApps;C:\Users\JacobSabbathAdiaba\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JacobSabbathAdiaba\AppData\Local\Programs\Ollama;C:\Users\JacobSabbathAdiaba\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\JacobSabbathAdiaba\AppData\Local\Programs\Cursor1\resources\app\bin;C:\Users\JacobSabbathAdiaba\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="sample" classname="com.elitekaycy.testlabs.DemoTest" time="0.003">
+    <system-out><![CDATA[jacob adiaba
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetUserSuccess" classname="com.elitekaycy.testlabs.labs.MockTest" time="0.047">
+    <system-out><![CDATA[>>> Setup before test
+>>> UserService#getUser called with: jacob
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserWithWrongEmailThrowsException" classname="com.elitekaycy.testlabs.labs.MockTest" time="0.004">
+    <failure message="&#10;Method MockTest.testGetUserWithWrongEmailThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException" type="org.testng.TestException"><![CDATA[org.testng.TestException: 
+
+Method MockTest.testGetUserWithWrongEmailThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException
+]]></failure>
+    <system-out><![CDATA[<<< Cleanup after test
+>>> Setup before test
+>>> UserService#getUser called with: jacob
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserWithWrongNameThrowsException" classname="com.elitekaycy.testlabs.labs.MockTest" time="0.002">
+    <failure message="&#10;Method MockTest.testGetUserWithWrongNameThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException" type="org.testng.TestException"><![CDATA[org.testng.TestException: 
+
+Method MockTest.testGetUserWithWrongNameThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException
+]]></failure>
+    <system-out><![CDATA[<<< Cleanup after test
+>>> Setup before test
+>>> UserService#getUser called with: jacob
+]]></system-out>
+  </testcase>
+  <testcase name="test_quicksort_with_data_providers[[I@1ad777f](1)" classname="com.elitekaycy.testlabs.labs.QuickSortTest" time="0.002">
+    <system-out><![CDATA[<<< Cleanup after test
+]]></system-out>
+  </testcase>
+  <testcase name="test_quicksort_with_data_providers[[I@25230246](2)" classname="com.elitekaycy.testlabs.labs.QuickSortTest" time="0"/>
+  <testcase name="unit_test_quicksort" classname="com.elitekaycy.testlabs.labs.QuickSortTest" time="0"/>
+</testsuite>

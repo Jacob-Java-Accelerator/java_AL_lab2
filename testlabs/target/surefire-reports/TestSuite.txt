@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.548 s <<< FAILURE! - in TestSuite
+com.elitekaycy.testlabs.labs.MockTest.testGetUserWithWrongEmailThrowsException  Time elapsed: 0.004 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MockTest.testGetUserWithWrongEmailThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException
+
+com.elitekaycy.testlabs.labs.MockTest.testGetUserWithWrongNameThrowsException  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MockTest.testGetUserWithWrongNameThrowsException()[pri:0, instance:com.elitekaycy.testlabs.labs.MockTest@3b938003] should have thrown an exception of type class java.lang.IllegalArgumentException
+

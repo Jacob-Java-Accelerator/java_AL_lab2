@@ -6,7 +6,7 @@ public class DemoTest {
 
   @Test
   public void sample() {
-    System.out.println("Dickson anyaele");
+    System.out.println("jacob adiaba");
 
   }
 
