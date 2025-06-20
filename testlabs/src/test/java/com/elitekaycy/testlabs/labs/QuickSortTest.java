@@ -8,7 +8,7 @@ import com.elitekaycy.testlabs.labs.simpleSort.QuickSort;
 
 public class QuickSortTest {
 
-  @Test
+  @Test(description = "Test QuickSort with a small array")
   public void unit_test_quicksort() {
     int[] arr = { 4, 3, 7, 1 };
 
@@ -22,7 +22,7 @@ public class QuickSortTest {
     }
   }
 
-  @Test(dataProvider = "sortData")
+  @Test(dataProvider = "sortData", description = "QuickSort on different unsorted arrays")
   public void test_quicksort_with_data_providers(int[] arr) {
     int[] result = QuickSort.sort(arr);
 
